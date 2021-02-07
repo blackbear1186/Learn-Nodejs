@@ -1,5 +1,8 @@
 const fs = require('fs');
 
-fs.writeFile('hello.txt', 'Hello World!', (err) => {
+const args = process.argv.slice(2);
+const name = args[0];
+
+fs.writeFile('hello.txt', `Hello ${name}`, (err) => {
     console.log('Done');
 })
