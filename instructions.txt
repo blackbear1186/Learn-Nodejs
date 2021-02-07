@@ -1,0 +1,4 @@
+npm init
+npm install express
+Add node_modules to gitignore
+npm i --save-dev nodemon-> use --save-dev for development dependency

@@ -1,0 +1,17 @@
+{
+  "name": "node-course",
+  "version": "1.0.0",
+  "description": "Learning nodejs",
+  "main": "hello-file.js",
+  "scripts": {
+    "say-hello": "node ./hello-file.js"
+  },
+  "author": "Berlin Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
