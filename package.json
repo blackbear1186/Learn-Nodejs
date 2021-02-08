@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Learning nodejs",
   "main": "hello-file.js",
+  "type": "module",
   "scripts": {
     "say-hello": "node ./hello-file.js"
   },
