@@ -39,24 +39,12 @@ import path from "path";
 // : console.log("Created my directory"));
 
 // create multiple directories asynchronously at one time if they don't exist
-fs.mkdir(path.join(__dirname, 'my-parent-directory'), { recursive: true }, err => err ? consolo(err) 
-: console.log("created two directories"))
+// fs.mkdir(path.join(__dirname, 'my-parent-directory'), { recursive: true }, err => err ? consolo(err) 
+// : console.log("created two directories"))
 
 // delete directory asynchronously
 // fs.rmdir(path.join(__dirname, 'my-new-directory'), err => err ? console.log(err) 
 // : console.log('Remove my directory'));
 
-// returns a boolean whether a file exist
-// const exampleExist = fs.existsSync(path.join(__dirname, 'example.txt'));
-// console.log(exampleExist)
 
-// list contents of directory
-// const contents = fs.readdirSync(__dirname);
-// console.log(contents)
-
-
-// const stats = fs.lstatSync(path.join(__dirname, 'example.txt'));
-// console.log(stats)
-// console.log(stats.isFile())
-// console.log(stats.isDirectory())
 
