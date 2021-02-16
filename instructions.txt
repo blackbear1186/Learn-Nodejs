@@ -7,3 +7,4 @@ npm install --save-dev @babel/core @babel/preset-env @babel/cli @babel/node
 Delete module from package.json still use import by typing 'npx babel-node ./index.js'
 Use babel to transpile javascript -> npx babel src --out-dir build --config-file ./.babelrc 
 npm i --save-dev @babel/plugin-proposal-optional-chaining->.babelrc
+curl -XPOST -H "Content-Type: application/json" -d '{"id": "345", "name": "Bob Brown" }' localhost:3000/users
