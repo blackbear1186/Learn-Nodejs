@@ -8,3 +8,5 @@ Delete module from package.json still use import by typing 'npx babel-node ./ind
 Use babel to transpile javascript -> npx babel src --out-dir build --config-file ./.babelrc 
 npm i --save-dev @babel/plugin-proposal-optional-chaining->.babelrc
 curl -XPOST -H "Content-Type: application/json" -d '{"id": "345", "name": "Bob Brown" }' localhost:3000/users
+#To run mongoDB type -> 'brew services start mongodb-community@4.4'
+#To connecto to Mongodb type -> 'mongo'
