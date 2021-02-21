@@ -26,12 +26,6 @@ const execute = async () => {
     });
   }
 
-  // for (let productName in productNames) {
-  //   await db.collection("products").insertOne({
-  //     name: productName,
-  //   });
-  // }
-
   const products = await db.collection('products').find({}).toArray();
   console.log(products)
   console.log("Done importing products!");
