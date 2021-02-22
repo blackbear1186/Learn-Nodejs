@@ -14,3 +14,5 @@ create npm publish package folder -> npm install chalk -> npm init -> npm login 
 update npm package-> change version -> npm publish -> npm install new version npm install color@1.0.1
 To prepare nodejs applications for production -> type -> npx babel ./src/hosting-example/server.js --out-file hosted-server.js
 Add start to package.json and engines for heroku
+Install heroku type -> brew tap heroku/brew && brew install heroku
+heroku login
