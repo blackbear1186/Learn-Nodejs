@@ -15,4 +15,4 @@ update npm package-> change version -> npm publish -> npm install new version np
 To prepare nodejs applications for production -> type -> npx babel ./src/hosting-example/server.js --out-file hosted-server.js
 Add start to package.json and engines for heroku
 Install heroku type -> brew tap heroku/brew && brew install heroku
-heroku login
+heroku login -> git add -> git commit -> heroku create -> git push heroku master
