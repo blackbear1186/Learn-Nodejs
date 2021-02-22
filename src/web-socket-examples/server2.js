@@ -1,11 +1,12 @@
 import { io } from "socket.io-client";
+import { colorfulLog } from 'colorful-log-bj';
 
 // connect multiple clients by using createSocketClient function
 const createSocketClient = (name, interval) => {
   const socket = io("http://localhost:8000/");
 
     socket.on('connect', () => {
-      console.log(`${name} connected`);
+      colorfulLog(`${name} connected`);
     })
 
     setInterval(() => {
@@ -20,7 +21,7 @@ const createSocketClient = (name, interval) => {
   
 
   socket.on("disconnect", () => {
-    console.log(`${name} disconnected!`);
+    colorfulLog(`${name} disconnected!`);
   });
 
 };

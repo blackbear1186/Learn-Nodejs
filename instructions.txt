@@ -10,3 +10,5 @@ npm i --save-dev @babel/plugin-proposal-optional-chaining->.babelrc
 curl -XPOST -H "Content-Type: application/json" -d '{"id": "345", "name": "Bob Brown" }' localhost:3000/users
 #To run mongoDB type -> 'brew services start mongodb-community@4.4'
 #To connecto to Mongodb type -> 'mongo'
+create npm publish package folder -> npm install chalk -> npm init -> npm login -> npm whoami ->npm publish
+update npm package-> change version -> npm publish -> npm install new version npm install color@1.0.1
