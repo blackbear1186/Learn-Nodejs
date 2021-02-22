@@ -12,3 +12,5 @@ curl -XPOST -H "Content-Type: application/json" -d '{"id": "345", "name": "Bob B
 #To connecto to Mongodb type -> 'mongo'
 create npm publish package folder -> npm install chalk -> npm init -> npm login -> npm whoami ->npm publish
 update npm package-> change version -> npm publish -> npm install new version npm install color@1.0.1
+To prepare nodejs applications for production -> type -> npx babel ./src/hosting-example/server.js --out-file hosted-server.js
+Add start to package.json and engines for heroku

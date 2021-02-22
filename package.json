@@ -4,7 +4,11 @@
   "description": "Learning nodejs",
   "main": "hello-file.js",
   "scripts": {
+    "start": "node hosted-server.js",
     "say-hello": "node ./hello-file.js"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "author": "Berlin Johnson",
   "license": "ISC",
