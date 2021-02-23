@@ -6,7 +6,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 
 var app = (0, _express["default"])();
 app.get('/', function (req, res) {
-  res.send('Hello from Heroku!');
+  res.send('Hello from Heroku! It is working correctly now!');
 }); // Heroku will pass the port number on process.env.PORT
 
 var PORT = process.env.PORT || 8000;
