@@ -16,3 +16,6 @@ To prepare nodejs applications for production -> type -> npx babel ./src/hosting
 Add start to package.json and engines for heroku
 Install heroku type -> brew tap heroku/brew && brew install heroku
 heroku login -> git add -> git commit -> heroku create -> git push heroku master
+for testing -> npm install --save-dev mocha chai to include only in development not production
+type npx mocha "src/**/*.test.js --recursive --require @babel/register for mocha to test all files with .test.js
+install babel register for mocha to work with ES6-> npm install --save-dev @babel/register
