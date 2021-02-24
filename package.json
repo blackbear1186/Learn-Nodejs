@@ -6,6 +6,7 @@
   "scripts": {
     "test": "npx mocha \"src/**/*.test.js\" --recursive --require @babel/register",
     "test:watch": "npx mocha \"src/**/*.test.js\" --recursive --require @babel/register --watch",
+    "coverage": "nyc --reporter=lcov --reporter=text npm run test",
     "start": "node hosted-server.js",
     "say-hello": "node ./hello-file.js"
   },
@@ -33,6 +34,7 @@
     "chai": "^4.3.0",
     "mocha": "^8.3.0",
     "nodemon": "^2.0.7",
+    "nyc": "^15.1.0",
     "supertest": "^6.1.3"
   }
 }

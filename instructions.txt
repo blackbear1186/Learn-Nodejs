@@ -21,3 +21,4 @@ type npx mocha "src/**/*.test.js --recursive --require @babel/register for mocha
 install babel register for mocha to work with ES6-> npm install --save-dev @babel/register
 install super test library -> npm install --save-dev supertest
 create script "test" in package.json and add test command to it -> type 'npm run test'
+install -> npm install --save-dev nyc -> add 'coverage' script to see how much code is used
